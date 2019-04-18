@@ -1,8 +1,3 @@
-; ICQ-Chat.com mIRC Nick Color Addon by Desolator and Chris
-; ------------------------------------------------------------------------------------
-; This Addon is setting the nick colours based on the gender
-; choosen in the webchat or via this addon for mIRC Users
-
 on *:PARSELINE:*:*:{
   if ($network == ICQ-Chat) {
     if (($parsetype == in) && ($parseutf == $true)) {
